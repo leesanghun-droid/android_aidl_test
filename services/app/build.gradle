@@ -6,6 +6,10 @@ android {
     namespace 'com.example.services'
     compileSdk 33
 
+    buildFeatures {
+        aidl true
+    }
+
     defaultConfig {
         applicationId "com.example.services"
         minSdk 30
